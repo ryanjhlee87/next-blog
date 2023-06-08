@@ -1,9 +1,12 @@
-export default function Home() {
+import Hero from '@/components/Hero';
+import FeaturedPosts from '@/components/FeaturedPosts';
+
+export default function HomePage() {
   return (
     <>
-      <main className="bg-gray-500 h-full">
-        <h1>Main</h1>
-      </main>
+      <Hero />
+      {/* @ts-expect-error Server Component */}
+      <FeaturedPosts />
     </>
   );
 }
