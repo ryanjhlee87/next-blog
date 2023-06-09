@@ -7,7 +7,7 @@ export default function Header() {
   const menu = ['home', 'about', 'posts', 'contact'];
 
   return (
-    <nav className="flex justify-between items-center p-4">
+    <nav className="flex justify-between items-center p-4 px-12">
       <h1 className="text-3xl font-bold">
         <Link href="/">{"Ryan's Blog"}</Link>
       </h1>
